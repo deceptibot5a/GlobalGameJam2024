@@ -12,6 +12,8 @@ public class RandomMovement : MonoBehaviour
     [SerializeField] float minWaitTime;
     [SerializeField] float maxWaitTime;
 
+    [SerializeField] LayerMask walls;
+
     bool facingRight = true;
     SpriteRenderer spriteRenderer;
 
@@ -61,9 +63,9 @@ public class RandomMovement : MonoBehaviour
     {
         transform.Translate(direction * speed * Time.deltaTime);
         
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, 0.5f);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, 0.5f, walls);
 
-        if (hit.collider != null)
+        if (hit.collider)
         {
             direction *= 0;
         }
