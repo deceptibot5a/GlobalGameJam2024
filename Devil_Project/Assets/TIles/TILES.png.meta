@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e9a1044b82c553244b1b4f284d4848fa
+guid: b3ea1d5f5a654a24194e768d72e02723
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1000
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Character_UpLeft_0
+      name: TILES_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 6
-        width: 15
-        height: 20
+        x: 0
+        y: 1000
+        width: 1000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea05918289f86a64c895cdda930ecc13
-      internalID: -351773685
+      spriteID: 923894f2a1c973a46af6256b1c158189
+      internalID: 1607249248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_UpLeft_1
+      name: TILES_1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 5
-        width: 15
-        height: 20
+        x: 1000
+        y: 1000
+        width: 1000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3bc4ab200ab84b49b43eacc74b2c7b9
-      internalID: -1959663221
+      spriteID: e8bc4b92edc5122448a108d32db2d4a3
+      internalID: 176330254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_UpLeft_2
+      name: TILES_2
       rect:
         serializedVersion: 2
-        x: 72
-        y: 6
-        width: 15
-        height: 20
+        x: 0
+        y: 0
+        width: 1000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b47e80b7c35bdd045bdd8b2eec3235c1
-      internalID: -639975244
+      spriteID: 81ff8d27ef0c5784d8f2267a635feb05
+      internalID: -1328510447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character_UpLeft_3
+      name: TILES_3
       rect:
         serializedVersion: 2
-        x: 104
-        y: 6
-        width: 15
-        height: 19
+        x: 1000
+        y: 0
+        width: 1000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4c8937def0097c4c93eba3cb87383cb
-      internalID: 836853350
+      spriteID: 208f3df496f8f6e42ad368e43951feb9
+      internalID: -1135009950
       vertices: []
       indices: 
       edges: []
@@ -199,10 +199,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Character_UpLeft_0: -351773685
-      Character_UpLeft_1: -1959663221
-      Character_UpLeft_2: -639975244
-      Character_UpLeft_3: 836853350
+      TILES_2: -1328510447
+      TILES_1: 176330254
+      TILES_3: -1135009950
+      TILES_0: 1607249248
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
