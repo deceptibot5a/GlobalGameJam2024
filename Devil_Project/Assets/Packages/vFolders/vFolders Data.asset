@@ -41,6 +41,8 @@ MonoBehaviour:
     - 5d16d2009bbe6411cb3e1c14d69b840c
     - ee2daf1d72fc81d458da149780b258e3
     - 9db636ca49aa246019dd93b7c8b689f4
+    - 8d4f2b4dd8c36bc49872046e3274c5e1
+    - f8db6ce6cd8e04c4ca1840b7eab73523
     values:
     - guid: 00000000000000001000000000000000
       iColor: 0
@@ -170,10 +172,20 @@ MonoBehaviour:
     - guid: ee2daf1d72fc81d458da149780b258e3
       iColor: 0
       autoIcon: 
-      customIcon: PrefabModel Icon
+      customIcon: TextAsset Icon
       autoIconDirty: 0
     - guid: 9db636ca49aa246019dd93b7c8b689f4
       iColor: 0
       autoIcon: 
       customIcon: 
+      autoIconDirty: 0
+    - guid: 8d4f2b4dd8c36bc49872046e3274c5e1
+      iColor: 8
+      autoIcon: 
+      customIcon: cs Script Icon
+      autoIconDirty: 0
+    - guid: f8db6ce6cd8e04c4ca1840b7eab73523
+      iColor: 5
+      autoIcon: 
+      customIcon: PrefabModel Icon
       autoIconDirty: 0

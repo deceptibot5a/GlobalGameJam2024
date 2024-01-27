@@ -13,5 +13,69 @@ MonoBehaviour:
   m_Name: vHierarchy Data
   m_EditorClassIdentifier: 
   sceneDatasByGuid:
-    keys: []
-    values: []
+    keys:
+    - 
+    - e3df1d5ecf8599e479cbd9645cb46a90
+    values:
+    - goDatasByGlobalId:
+        keys: []
+        values: []
+      goDatasByInstanceId:
+        keys: 
+        values: []
+    - goDatasByGlobalId:
+        keys:
+        - GlobalObjectId_V1-2-e3df1d5ecf8599e479cbd9645cb46a90-837837257-0
+        - GlobalObjectId_V1-2-e3df1d5ecf8599e479cbd9645cb46a90-1532359075-0
+        - GlobalObjectId_V1-2-e3df1d5ecf8599e479cbd9645cb46a90-1336033371-0
+        - GlobalObjectId_V1-2-e3df1d5ecf8599e479cbd9645cb46a90-957791729-0
+        - GlobalObjectId_V1-2-e3df1d5ecf8599e479cbd9645cb46a90-1098528865-0
+        - GlobalObjectId_V1-2-e3df1d5ecf8599e479cbd9645cb46a90-1495454376-0
+        - GlobalObjectId_V1-2-e3df1d5ecf8599e479cbd9645cb46a90-1416126408-0
+        - GlobalObjectId_V1-2-e3df1d5ecf8599e479cbd9645cb46a90-103778640-0
+        - GlobalObjectId_V1-2-e3df1d5ecf8599e479cbd9645cb46a90-190592308-0
+        - GlobalObjectId_V1-2-e3df1d5ecf8599e479cbd9645cb46a90-1966335455-0
+        values:
+        - iColor: 0
+          icon: Camera Icon
+        - iColor: 0
+          icon: MeshCollider Icon
+        - iColor: 0
+          icon: Terrain Icon
+        - iColor: 0
+          icon: Terrain Icon
+        - iColor: 0
+          icon: Terrain Icon
+        - iColor: 0
+          icon: Terrain Icon
+        - iColor: 0
+          icon: 
+        - iColor: 0
+          icon: Settings Icon
+        - iColor: 0
+          icon: Settings Icon
+        - iColor: 0
+          icon: Light Icon
+      goDatasByInstanceId:
+        keys: 125b00006cf2ffffa4b4ffff64f0ffffdadcffff86e7ffff8cd9ffff3eacffff60f2ffff1a5b0000
+        values:
+        - iColor: 0
+          icon: Camera Icon
+        - iColor: 0
+          icon: MeshCollider Icon
+        - iColor: 0
+          icon: Terrain Icon
+        - iColor: 0
+          icon: Terrain Icon
+        - iColor: 0
+          icon: Terrain Icon
+        - iColor: 0
+          icon: Terrain Icon
+        - iColor: 0
+          icon: 
+        - iColor: 0
+          icon: Settings Icon
+        - iColor: 0
+          icon: Settings Icon
+        - iColor: 0
+          icon: Light Icon
