@@ -10,7 +10,6 @@ public class CharacterSO : ScriptableObject
     [TextArea(2, 6)][SerializeField] string Dialogue = "Enter a dialogue";
     [Header(" ")]
     [SerializeField] Sprite avatar;
-    [SerializeField] GameObject prefab;
     [SerializeField] bool isDead = false;
 
     public string GetCharacterName()
@@ -29,11 +28,6 @@ public class CharacterSO : ScriptableObject
     public bool GetDeath()
     {
         return isDead;
-    }
-
-    public GameObject GetPrefab()
-    {
-        return prefab;
     }
 
     public void SetDeath()

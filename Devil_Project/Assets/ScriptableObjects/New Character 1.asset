@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5cad49f0190d12148bfdcb76d30443bd, type: 3}
-  m_Name: New Character
+  m_Name: New Character 1
   m_EditorClassIdentifier: 
   name: Enter a name
   Dialogue: Enter a dialogue
-  avatar: {fileID: 21300000, guid: e36d1a38d7aa309409e80bf66a089330, type: 3}
+  avatar: {fileID: 0}
   isDead: 0
