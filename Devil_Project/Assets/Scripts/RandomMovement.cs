@@ -6,14 +6,20 @@ using UnityEngine.UIElements;
 public class RandomMovement : MonoBehaviour
 {
     [Header("RandomMovement parameters")]
-    public float speed;
-    public float minMovementTime;
-    public float maxMovementTime;
-    public float minWaitTime;
-    public float maxWaitTime;
+    [SerializeField] float speed;
+    [SerializeField] float minMovementTime;
+    [SerializeField] float maxMovementTime;
+    [SerializeField] float minWaitTime;
+    [SerializeField] float maxWaitTime;
+
+    bool facingRight = true;
+    SpriteRenderer spriteRenderer;
 
     Vector2 direction;
-
+    private void Awake()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
     private void Start()
     {
         direction = RandomDirection();
@@ -27,10 +33,11 @@ public class RandomMovement : MonoBehaviour
             direction = RandomDirection();
 
             yield return new WaitForSeconds(Random.Range(minMovementTime, maxMovementTime));
-
+            
             direction = Vector2.zero;
             yield return new WaitForSeconds(Random.Range(minWaitTime, maxWaitTime));
         }
+        
     }
 
     private Vector2 RandomDirection()
@@ -53,16 +60,30 @@ public class RandomMovement : MonoBehaviour
     private void Update()
     {
         transform.Translate(direction * speed * Time.deltaTime);
-
+        
         RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, 0.5f);
 
         if (hit.collider != null)
         {
             direction *= 0;
         }
-    }
+        if (direction.x < 0 && facingRight)
+        {
+            Flip();
+        }
+        else if (direction.x > 0 && !facingRight)
+        {
+            Flip();
+        }
 
-    public void StopBehaviour()
+    }
+    void Flip()
+    {
+        facingRight = !facingRight;
+        spriteRenderer.flipX = !spriteRenderer.flipX;
+
+    }
+    private void StopBehaviour()
     {
         StopAllCoroutines();
         direction = Vector2.zero;

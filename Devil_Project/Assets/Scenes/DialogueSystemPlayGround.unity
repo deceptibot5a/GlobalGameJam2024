@@ -167,11 +167,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b37b255672970f840a8ed720302a4080, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: {fileID: 0}
-  dialog: {fileID: 0}
-  chatBox: {fileID: 0}
-  avatar: {fileID: 0}
-  character: {fileID: 0}
+  nameText: {fileID: 1416126410}
+  dialog: {fileID: 685114054}
+  chatBox: {fileID: 1532359075}
+  avatar: {fileID: 1098528867}
+  character: {fileID: 11400000, guid: 04d316b69e698144aa0df9b591c14a38, type: 2}
 --- !u!1 &190592308
 GameObject:
   m_ObjectHideFlags: 0
