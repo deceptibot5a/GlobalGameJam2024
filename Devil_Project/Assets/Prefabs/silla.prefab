@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5536729310758018314}
   - component: {fileID: 1611589260189862447}
-  - component: {fileID: 1566838742}
   m_Layer: 0
   m_Name: silla
   m_TagString: Untagged
@@ -85,41 +84,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!68 &1566838742
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5124824288241541874}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -0.13772166, y: 0.14844683}
-  - {x: -0.1486187, y: 0.742234}
-  - {x: 0.10021734, y: 0.7454377}
-  - {x: 0.39308977, y: 0.6068228}
-  - {x: 0.45345163, y: 0.47256306}
-  - {x: 0.37899685, y: -0.11890012}
-  - {x: 0.40830946, y: -0.61094886}
-  - {x: 0.34302783, y: -0.5665015}
-  - {x: 0.26419425, y: -0.21706933}
-  - {x: -0.023286581, y: -0.45473254}
-  - {x: -0.051736355, y: -0.8558116}
-  - {x: -0.14582968, y: -0.82415426}
-  - {x: -0.13686562, y: -0.4636817}
-  - {x: -0.40331888, y: -0.29232633}
-  - {x: -0.44524622, y: -0.648176}
-  - {x: -0.50825024, y: -0.24259716}
-  - {x: -0.5063486, y: -0.0742991}
-  - {x: -0.11868632, y: 0.1416992}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0

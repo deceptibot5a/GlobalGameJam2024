@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1530495060765807727}
   - component: {fileID: 1530495060765807726}
-  - component: {fileID: 1530495060765807724}
   m_Layer: 0
   m_Name: silla doblada
   m_TagString: Untagged
@@ -85,41 +84,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!68 &1530495060765807724
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1530495060765807728}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: 0.4425701, y: -0.53305906}
-  - {x: 0.40229893, y: -0.29258096}
-  - {x: 0.1562767, y: -0.4545362}
-  - {x: 0.14024115, y: -0.69735956}
-  - {x: 0.066698074, y: -0.76216686}
-  - {x: 0.028078556, y: -0.40795147}
-  - {x: -0.26254606, y: -0.24846107}
-  - {x: -0.31187296, y: -0.47962695}
-  - {x: -0.38512993, y: -0.6221342}
-  - {x: -0.35593033, y: -0.12914675}
-  - {x: -0.44820738, y: 0.5115151}
-  - {x: -0.32217216, y: 0.6587603}
-  - {x: -0.051938057, y: 0.7853822}
-  - {x: 0.16569948, y: 0.7152438}
-  - {x: 0.125916, y: 0.1259805}
-  - {x: 0.5035367, y: -0.07918304}
-  - {x: 0.4980693, y: -0.2635407}
-  - {x: 0.4616052, y: -0.55330175}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
