@@ -15,5 +15,6 @@ MonoBehaviour:
   name: El novio del Uchija
   Dialogue: "Yo antes era como t\xFA. Datebayo!!!"
   avatar: {fileID: 21300000, guid: 0cd3ffff1e99a4946bd94a0b7e2e4405, type: 3}
-  isDead: 1
+  isDead: 0
   isDiablo: 0
+  textMeshProUGUI: {fileID: 0}

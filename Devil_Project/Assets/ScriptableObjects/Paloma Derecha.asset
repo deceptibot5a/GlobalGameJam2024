@@ -15,5 +15,6 @@ MonoBehaviour:
   name: Paloma Derecha
   Dialogue: Enter a dialogue
   avatar: {fileID: 21300000, guid: 0a2cc6e1401484a4d9805d95e0ec9275, type: 3}
-  isDead: 1
+  isDead: 0
   isDiablo: 0
+  textMeshProUGUI: {fileID: 0}

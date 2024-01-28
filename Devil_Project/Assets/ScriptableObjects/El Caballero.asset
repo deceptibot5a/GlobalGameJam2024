@@ -15,5 +15,6 @@ MonoBehaviour:
   name: '"El Caballero"'
   Dialogue: Enter a dialogue
   avatar: {fileID: 21300000, guid: 2a5f4487ce68adb4da51426709258106, type: 3}
-  isDead: 1
+  isDead: 0
   isDiablo: 0
+  textMeshProUGUI: {fileID: 0}

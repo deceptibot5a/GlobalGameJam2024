@@ -15,5 +15,6 @@ MonoBehaviour:
   name: Artiom
   Dialogue: Enter a dialogue
   avatar: {fileID: 21300000, guid: 82a3d67180598404985e142a42c084f3, type: 3}
-  isDead: 0
+  isDead: 1
   isDiablo: 0
+  textMeshProUGUI: {fileID: 0}

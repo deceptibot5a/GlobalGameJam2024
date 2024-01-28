@@ -15,5 +15,6 @@ MonoBehaviour:
   name: Nart Val
   Dialogue: Enter a dialogue
   avatar: {fileID: 21300000, guid: b95ef9c7c51252240886e4c66b4b8ac7, type: 3}
-  isDead: 1
+  isDead: 0
   isDiablo: 0
+  textMeshProUGUI: {fileID: 0}

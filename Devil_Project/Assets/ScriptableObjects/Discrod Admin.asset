@@ -15,5 +15,6 @@ MonoBehaviour:
   name: Admin
   Dialogue: chicos no pongan memes en general uwu
   avatar: {fileID: 21300000, guid: 92c1a98448e67aa43935151494fdd31a, type: 3}
-  isDead: 1
+  isDead: 0
   isDiablo: 0
+  textMeshProUGUI: {fileID: 0}

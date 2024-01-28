@@ -15,5 +15,6 @@ MonoBehaviour:
   name: Goma Calva
   Dialogue: Enter a dialogue
   avatar: {fileID: 21300000, guid: d898d25d1d178e048a4c033e12eb49b0, type: 3}
-  isDead: 1
+  isDead: 0
   isDiablo: 0
+  textMeshProUGUI: {fileID: 0}

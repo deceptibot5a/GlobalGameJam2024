@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
@@ -13,12 +14,14 @@ public class SpawnNPC : MonoBehaviour
 
     [SerializeField] List<CharacterSO> characters = new List<CharacterSO>();
     [SerializeField] List<CharacterSO> usedCharacters = new List<CharacterSO>();
+    [SerializeField] TextMeshProUGUI[] textMeshProUGUI;
     [SerializeField] NPC[] nPCs;
 
     private void Awake()
     {
         diabloScriptInstance = diabloInstance.GetComponent<Diablo>();
         nPCs = FindObjectsOfType<NPC>();
+        textMeshProUGUI = FindObjectsOfType<TextMeshProUGUI>();
     }
     private void Start()
     {
@@ -34,6 +37,13 @@ public class SpawnNPC : MonoBehaviour
         for (int i = 0; i < usedCharacters.Count; i++)
         {
             PopulateNPCs(i);
+
+            if ( i < textMeshProUGUI.Length)
+            {
+                textMeshProUGUI[i].text = nPCs[i].GetCharacter().GetCharacterName();
+
+            }
+           
         }
         
             StartCoroutine(SeleccionVictima());
@@ -60,11 +70,14 @@ public class SpawnNPC : MonoBehaviour
 
      void PopulateNPCs(int populatedIndex)
     {
+       
         if (populatedIndex < nPCs.Length)
         {
             nPCs[populatedIndex].SetAvatar(usedCharacters[populatedIndex].GetAvatar());
             nPCs[populatedIndex].SetCharacter(usedCharacters[populatedIndex]);
             nPCs[populatedIndex].SetSpawner(this);
+            usedCharacters[populatedIndex].SetDeath(false);
+            usedCharacters[populatedIndex].SetIsDiavlo(false);
         }
         else
         {
@@ -76,15 +89,24 @@ public class SpawnNPC : MonoBehaviour
     [SerializeField] float timeForKill;
     IEnumerator SeleccionVictima()
     {
-        
+        yield return new WaitForSeconds(3);
         int randomSelector = UnityEngine.Random.Range(0, usedCharacters.Count);
 
         if (usedCharacters[randomSelector].GetIsDiavlo())
         {
-            StartCoroutine(SeleccionVictima());
+            yield return StartCoroutine(SeleccionVictima());
         }
         usedCharacters[randomSelector].SetIsDiavlo(true);
+        usedCharacters[randomSelector].SetDeath(true);
 
+        for (int i = 0; i < usedCharacters.Count; i++)
+        {
+            if (usedCharacters[i].GetDeath())
+            {
+                textMeshProUGUI[i].color = new Vector4(255, 0, 0, 1);
+            }
+        }
+        
         yield return new WaitForSeconds(timeForKill);
 
         if (usedCharacters.Count != 0)
@@ -96,11 +118,13 @@ public class SpawnNPC : MonoBehaviour
 
                     diabloScriptInstance.Hunt(usedCharacters[i]);
                     nPCs[i].SetUnctive();
+
+                    
                 }
             }
                 
         }
-        timeForKill = timeForKill + 2f;
+        timeForKill = timeForKill + 1f;
         StartCoroutine(SeleccionVictima());
     }
 

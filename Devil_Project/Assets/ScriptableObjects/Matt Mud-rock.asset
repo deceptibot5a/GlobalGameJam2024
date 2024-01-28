@@ -15,5 +15,6 @@ MonoBehaviour:
   name: Matt Mudrock
   Dialogue: Enter a dialogue
   avatar: {fileID: 21300000, guid: 64f47cb3e353bf94bbc9ee707a1f1979, type: 3}
-  isDead: 1
+  isDead: 0
   isDiablo: 0
+  textMeshProUGUI: {fileID: 0}

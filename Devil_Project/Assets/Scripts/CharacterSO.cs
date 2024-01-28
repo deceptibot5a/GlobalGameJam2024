@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 [CreateAssetMenu(menuName = "Character", fileName = "New Character")]
 public class CharacterSO : ScriptableObject
@@ -12,6 +13,18 @@ public class CharacterSO : ScriptableObject
     [SerializeField] Sprite avatar;
     [SerializeField] bool isDead = false;
     [SerializeField] bool isDiablo = false;
+    [SerializeField] TextMeshProUGUI textMeshProUGUI;
+
+    private void Awake()
+    {
+        isDead = false;
+        isDiablo = false;
+    }
+    public void SetText()
+    {
+        textMeshProUGUI.text = name;
+    }
+    
 
     public string GetCharacterName()
     {
@@ -38,9 +51,9 @@ public class CharacterSO : ScriptableObject
         return isDead;
     }
 
-    public void SetDeath()
+    public void SetDeath(bool temp)
     {
-        isDead = true;
+        isDead = temp;
     }
 }
 

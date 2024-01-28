@@ -46,4 +46,9 @@ public class NPC : MonoBehaviour
     {
         return characterSO; 
     }
+
+    public void SetTextBox()
+    {
+        characterSO.SetText();
+    }
 }

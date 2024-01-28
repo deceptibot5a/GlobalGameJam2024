@@ -17,3 +17,4 @@ MonoBehaviour:
   avatar: {fileID: 21300000, guid: fef692428fb69f348aa4c62ed81a5754, type: 3}
   isDead: 0
   isDiablo: 0
+  textMeshProUGUI: {fileID: 0}
