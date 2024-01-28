@@ -17,4 +17,5 @@ MonoBehaviour:
 '
   Dialogue: Perdiste
   avatar: {fileID: 21300000, guid: 88b5753290cf2d048b9e4666e1c25b7d, type: 3}
-  isDead: 0
+  isDead: 1
+  isDiablo: 0

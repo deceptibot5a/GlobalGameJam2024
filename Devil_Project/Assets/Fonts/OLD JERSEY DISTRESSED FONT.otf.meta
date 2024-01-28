@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 5c8480b21f5f9c945985d124000dae81
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - OLD JERSEY DISTRESSED
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f705edd369ccc14468b04132a2a806bf, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

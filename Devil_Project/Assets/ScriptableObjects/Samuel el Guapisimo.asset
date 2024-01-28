@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Samuel el Guapisimo
   Dialogue: Enter a dialogue
-  avatar: {fileID: 0}
-  isDead: 0
+  avatar: {fileID: 21300000, guid: ccda009dd320e5e4cb571e8efa8cf3ed, type: 3}
+  isDead: 1
+  isDiablo: 0

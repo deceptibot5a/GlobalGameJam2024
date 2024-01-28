@@ -16,3 +16,4 @@ MonoBehaviour:
   Dialogue: Enter a dialogue
   avatar: {fileID: 21300000, guid: 872031c3aeff5e445833b56f3bf97456, type: 3}
   isDead: 0
+  isDiablo: 0

@@ -15,4 +15,5 @@ MonoBehaviour:
   name: Chop lee
   Dialogue: Enter a dialogue
   avatar: {fileID: 21300000, guid: 1491165874105f24285b6923314ebc90, type: 3}
-  isDead: 0
+  isDead: 1
+  isDiablo: 0

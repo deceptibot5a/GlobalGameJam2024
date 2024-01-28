@@ -21,6 +21,11 @@ public class NPC : MonoBehaviour
         nPC = this.gameObject;
         
     }
+
+    public void SetUnctive()
+    {
+        this.gameObject.SetActive(false);
+    }
     public void SetSpawner(SpawnNPC spawn)
     {
         spawnNPC = spawn;
