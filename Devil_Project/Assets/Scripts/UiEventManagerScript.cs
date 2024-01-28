@@ -13,6 +13,7 @@ public class UiEventManagerScript : MonoBehaviour
     [SerializeField] Image avatar;
     [SerializeField] CharacterSO character;
     [SerializeField] PlayerStats playerStats;
+    [SerializeField] AudioManager audioManager;
 
     [SerializeField] GameObject winMessage;
     [SerializeField] GameObject loseMessage;
@@ -31,6 +32,7 @@ public class UiEventManagerScript : MonoBehaviour
     private void Awake()
     {
         playerStats = FindObjectOfType<PlayerStats>();
+        audioManager = FindObjectOfType<AudioManager>();
     }
     private void Start()
     {
@@ -59,7 +61,7 @@ public class UiEventManagerScript : MonoBehaviour
     public void Machetear()
     {
         print("Machetear");
-
+        audioManager.Machetear();
         character.SetDeath(true);
         playerStats.interactedNPC.SetUnctive();
         CloseDialogue();
@@ -74,6 +76,7 @@ public class UiEventManagerScript : MonoBehaviour
         }
         else
         {
+            audioManager.DiabloMuerte();
             WinScreen();
         }
 

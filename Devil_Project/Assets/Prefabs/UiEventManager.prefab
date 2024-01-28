@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2306822608542572049}
   - component: {fileID: 2306822608542572050}
+  - component: {fileID: 499205687702057106}
   m_Layer: 0
   m_Name: UiEventManager
   m_TagString: Untagged
@@ -53,3 +54,15 @@ MonoBehaviour:
   winMessage: {fileID: 0}
   loseMessage: {fileID: 0}
   endingCanvas: {fileID: 0}
+--- !u!114 &499205687702057106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2306822608542572048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e6b479d5d1fe244d9413e61dceb7315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
