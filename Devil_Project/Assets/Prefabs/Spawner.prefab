@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3962366271984515553
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3962366271984515567}
+  - component: {fileID: 3962366271984515566}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3962366271984515567
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3962366271984515553}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.19, y: -1.0950297, z: -220.37082}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3962366271984515566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3962366271984515553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f027038251d69f4d971a64090da75b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diabloInstance: {fileID: 0}
+  diabloScriptInstance: {fileID: 0}
+  characters:
+  - {fileID: 11400000, guid: fa47cc07d401b754e8a588460ab2c0b4, type: 2}
+  - {fileID: 11400000, guid: 834116eeec8f0734ebfefd14ca3d9ba4, type: 2}
+  - {fileID: 11400000, guid: 0d6953c841a121c46adee16e07d08484, type: 2}
+  - {fileID: 11400000, guid: 9cdcbdc6d3efe284f96ba493d8a3889f, type: 2}
+  - {fileID: 11400000, guid: 719c611309bb231499a30a902363f5bc, type: 2}
+  - {fileID: 11400000, guid: 075b41923e3bff149949cb7074ce56e2, type: 2}
+  - {fileID: 11400000, guid: 7bcfcca68c6b0ee42bf375fa1ea79c2c, type: 2}
+  - {fileID: 11400000, guid: 7564ff70af5b4e34d8182de980a14aaa, type: 2}
+  - {fileID: 11400000, guid: 31735231b675ff645870914a0741b2d6, type: 2}
+  - {fileID: 11400000, guid: 458022677e8ef0d49b1338f19575e2f2, type: 2}
+  - {fileID: 11400000, guid: 04d316b69e698144aa0df9b591c14a38, type: 2}
+  - {fileID: 11400000, guid: 952e256913529094ab7c56b17cff1818, type: 2}
+  - {fileID: 11400000, guid: a728650ca519cfd4ab39eced3f87a937, type: 2}
+  - {fileID: 11400000, guid: 95689f02a36c4074fb7aa681ca23317a, type: 2}
+  - {fileID: 11400000, guid: 56a0f836751c99c4eb068401ea4371d3, type: 2}
+  - {fileID: 11400000, guid: 08b9527a1f8d07440a6adc9d192f1eb7, type: 2}
+  - {fileID: 11400000, guid: 004f4c3cdc595aa428cf9ead7db5fbf8, type: 2}
+  - {fileID: 11400000, guid: 14326667172d51b43a9736e69a2a0489, type: 2}
+  - {fileID: 11400000, guid: 8f8f82ffd04bcd4449edbdd65f1df4eb, type: 2}
+  - {fileID: 11400000, guid: f5b8c0293dbaedf408fcbf1ed56db57c, type: 2}
+  - {fileID: 11400000, guid: 34c9a5265a5dd5c40bafbb1481568444, type: 2}
+  - {fileID: 11400000, guid: b9ae275cbccab3b4bb0e5606979b2178, type: 2}
+  - {fileID: 11400000, guid: edc0eba6856b9ed4dab7ad495fe80f94, type: 2}
+  - {fileID: 11400000, guid: c97b3a5f80857984ca146eb901bc795c, type: 2}
+  - {fileID: 11400000, guid: f44fe0b57eb9fd0409a20cc117be0ad4, type: 2}
+  - {fileID: 11400000, guid: 77fb4ead64a65964db2d4fe223f20d12, type: 2}
+  - {fileID: 11400000, guid: 901ff75f341e526488996344c6b1c818, type: 2}
+  - {fileID: 11400000, guid: b892efa5de31f6e4680a82c775d37761, type: 2}
+  - {fileID: 11400000, guid: e920f7ecf8428f64890726c040e4e535, type: 2}
+  - {fileID: 11400000, guid: 46bd7b5d349f4794595f4602a20f6d20, type: 2}
+  - {fileID: 11400000, guid: ce325e3493578d248ba9374591094d94, type: 2}
+  - {fileID: 11400000, guid: 0c9d871444d9d87418b0198a7976e45f, type: 2}
+  - {fileID: 11400000, guid: 72bff37f722fac24cadeff70626f24de, type: 2}
+  - {fileID: 11400000, guid: 61bf28b0cf74bdb468a1e4813f9427cb, type: 2}
+  - {fileID: 11400000, guid: 3464a4342fdb75d4b9843ceb3a71c3e5, type: 2}
+  - {fileID: 11400000, guid: b005d09cb59f7c34b9b8eb2c9e07aecb, type: 2}
+  - {fileID: 11400000, guid: 156bf7a3e1afe274dbd8fde4709749c1, type: 2}
+  - {fileID: 11400000, guid: 80c0fe11436bf0f41ba6c03fe4278411, type: 2}
+  - {fileID: 11400000, guid: a84ccf9f52563c34581fe1dd53e262bd, type: 2}
+  - {fileID: 11400000, guid: e75124bc12c7fd84cb5c6ac0322f3eb6, type: 2}
+  usedCharacters: []
+  textMeshProUGUI: []
+  nPCs: []
+  timeForKill: 100
