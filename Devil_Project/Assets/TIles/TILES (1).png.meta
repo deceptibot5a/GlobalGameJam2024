@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ee302c442bbc0cf4183d24187b76209b
+guid: 46f524eaa7bd8fb42bee88d390e0c01f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TILES 1_0
+      name: TILES (1)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5eb5f46e575ab74ebb1c60d586d52a6
-      internalID: -1725149237
+      spriteID: ac55f268e6e8af9478ba052fe88f19f0
+      internalID: -1304551311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TILES 1_1
+      name: TILES (1)_1
       rect:
         serializedVersion: 2
         x: 1000
@@ -152,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0397ae29f0996b24292748fab0b53286
-      internalID: -995566234
+      spriteID: fd81e2c58b73f57449e34add1c482e52
+      internalID: 405603198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TILES 1_2
+      name: TILES (1)_2
       rect:
         serializedVersion: 2
         x: 0
@@ -173,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f48c5bc7bf3ba5f47846c5277e31c62c
-      internalID: 278355572
+      spriteID: 25ccb40a4ba84764a85bae45a889b319
+      internalID: 1495780502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TILES 1_3
+      name: TILES (1)_3
       rect:
         serializedVersion: 2
         x: 1000
@@ -194,8 +194,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 900803d30a9e47d44865fab6b54ae468
-      internalID: -621579126
+      spriteID: 05a020cff4ab7104aa27e84736cb596a
+      internalID: -1129754810
       vertices: []
       indices: 
       edges: []
@@ -211,10 +211,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      TILES 1_2: 278355572
-      TILES 1_0: -1725149237
-      TILES 1_1: -995566234
-      TILES 1_3: -621579126
+      TILES (1)_0: -1304551311
+      TILES (1)_1: 405603198
+      TILES (1)_3: -1129754810
+      TILES (1)_2: 1495780502
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
