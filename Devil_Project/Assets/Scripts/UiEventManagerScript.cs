@@ -14,6 +14,10 @@ public class UiEventManagerScript : MonoBehaviour
     [SerializeField] CharacterSO character;
     [SerializeField] PlayerStats playerStats;
 
+    [SerializeField] GameObject winMessage;
+    [SerializeField] GameObject loseMessage;
+    [SerializeField] GameObject endingCanvas;
+
     bool listIsOpen = true;
 
     public void SetListIsOpen (bool isOper)
@@ -51,17 +55,38 @@ public class UiEventManagerScript : MonoBehaviour
         Time.timeScale = 1.0f;
     }
 
-    public void Machetear() 
+    public void Machetear()
     {
         print("Machetear");
 
+        character.SetDeath(true);
+        playerStats.interactedNPC.SetUnctive();
+        CloseDialogue();
+
         if (!character.GetIsDiavlo())
         {
-            character.SetDeath(true);
             playerStats.life = playerStats.life - 1;
-            playerStats.interactedNPC.SetUnctive();
-            //desactivar personaje*/
+            if (playerStats.life <= 0)
+            {
+                LoseScreen();
+            }
         }
-        
+        else
+        {
+            WinScreen();
+        }
+
+    }
+    public void WinScreen()
+    {
+        endingCanvas.SetActive(true);
+        winMessage.SetActive(true);
+        Time.timeScale = .5f;
+    }
+    public void LoseScreen()
+    {
+        endingCanvas.SetActive(true);
+        loseMessage.SetActive(true);
+        Time.timeScale = 0f;
     }
 }
