@@ -31,11 +31,16 @@ public class NPCinteraction : MonoBehaviour
     {
         if (!isInterface)
         {
+
             //Debug.Log("Object Clicked!");
-            canvas.SetActive(true);
-            playerStats.interactedNPC = nPC;
-            uiManager.setCharacter(nPC.GetCharacter());
-            Time.timeScale = .5f;
+            if (!uiManager.GetListIsOpen())
+            {
+                canvas.SetActive(true);
+                playerStats.interactedNPC = nPC;
+                uiManager.SetCharacter(nPC.GetCharacter());
+                Time.timeScale = .5f;
+            }
+            
         }
         
     }

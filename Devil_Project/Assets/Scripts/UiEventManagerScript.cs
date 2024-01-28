@@ -14,6 +14,16 @@ public class UiEventManagerScript : MonoBehaviour
     [SerializeField] CharacterSO character;
     [SerializeField] PlayerStats playerStats;
 
+    bool listIsOpen = true;
+
+    public void SetListIsOpen (bool isOper)
+    {
+        listIsOpen = isOper;
+    }
+    public bool GetListIsOpen()
+    {
+        return listIsOpen;
+    }
     private void Awake()
     {
         playerStats = FindObjectOfType<PlayerStats>();
@@ -30,7 +40,7 @@ public class UiEventManagerScript : MonoBehaviour
         avatar.sprite = character.GetAvatar();
     }
 
-    public void setCharacter(CharacterSO characterSO)
+    public void SetCharacter(CharacterSO characterSO)
     {
         character = characterSO;
         SetSkins();

@@ -5,8 +5,13 @@ using UnityEngine;
 public class PlayListAnim : MonoBehaviour
 {
     Animator animator;
-    bool open = true;
+    [SerializeField] UiEventManagerScript uiManager;
 
+    bool open = true;
+    public bool GetOpen()
+    {
+        return open;
+    }
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -26,12 +31,14 @@ public class PlayListAnim : MonoBehaviour
      void PlayOpenListAnim()
     {
         animator.Play("Lista");
+        uiManager.SetListIsOpen(true);
         open = true;
     }
 
      void PlayCloseListAnim()
     {
         animator.Play("InverseLista");
-        open= false;
+        uiManager.SetListIsOpen(false);
+        open = false;
     }
 }
