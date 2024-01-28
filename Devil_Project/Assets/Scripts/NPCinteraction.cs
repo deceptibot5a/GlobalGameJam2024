@@ -9,6 +9,7 @@ public class NPCinteraction : MonoBehaviour
     [SerializeField] GameObject canvas;
     [SerializeField] NPC nPC;
     [SerializeField] bool isInterface = false;
+    [SerializeField] PlayerStats playerStats;
     private void Awake()
     {
         nPC = this.GetComponent<NPC>();
@@ -22,16 +23,16 @@ public class NPCinteraction : MonoBehaviour
         }
         else
         {
-            isInterface =false;
+            isInterface = false;
         }
     }
     void OnMouseDown()
     {
         if (!isInterface)
         {
-            Debug.Log("Object Clicked!");
+            //Debug.Log("Object Clicked!");
             canvas.SetActive(true);
-
+            playerStats.interactedNPC = nPC;
             uiManager.setCharacter(nPC.GetCharacter());
             Time.timeScale = .5f;
         }

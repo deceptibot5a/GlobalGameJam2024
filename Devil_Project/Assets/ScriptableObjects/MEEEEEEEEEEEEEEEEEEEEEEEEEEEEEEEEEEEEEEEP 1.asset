@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cad49f0190d12148bfdcb76d30443bd, type: 3}
   m_Name: MEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEP 1
   m_EditorClassIdentifier: 
-  name: MEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEP
+  name: MEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEP
   Dialogue: Enter a dialogue
   avatar: {fileID: 21300000, guid: 6d53befeee8eb4042a13254392ef8447, type: 3}
-  isDead: 0
+  isDead: 1
   isDiablo: 0
