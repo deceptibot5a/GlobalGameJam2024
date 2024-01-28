@@ -12,6 +12,11 @@ public class UiEventManagerScript : MonoBehaviour
     [SerializeField] Image avatar;
     [SerializeField] CharacterSO character;
     [SerializeField] PlayerStats playerStats;
+
+    private void Awake()
+    {
+        playerStats = FindObjectOfType<PlayerStats>();
+    }
     private void Start()
     {
         SetSkins();
@@ -41,10 +46,10 @@ public class UiEventManagerScript : MonoBehaviour
 
         if (!character.GetIsDiavlo())
         {
-            character.SetDeath();
-            --playerStats.life;
+            /*character.SetDeath(true);
+            playerStats.life = playerStats.life - 1;
             playerStats.interactedNPC.SetUnctive();
-            //desactivar personaje
+            //desactivar personaje*/
         }
         
     }

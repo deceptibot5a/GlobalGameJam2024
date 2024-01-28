@@ -92,10 +92,11 @@ public class SpawnNPC : MonoBehaviour
         yield return new WaitForSeconds(3);
         int randomSelector = UnityEngine.Random.Range(0, usedCharacters.Count);
 
-        if (usedCharacters[randomSelector].GetIsDiavlo())
+        if (usedCharacters[randomSelector].GetIsDiavlo() || usedCharacters[randomSelector].GetDeath())
         {
             yield return StartCoroutine(SeleccionVictima());
         }
+
         usedCharacters[randomSelector].SetIsDiavlo(true);
         usedCharacters[randomSelector].SetDeath(true);
 

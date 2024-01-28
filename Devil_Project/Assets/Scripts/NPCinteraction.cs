@@ -13,6 +13,7 @@ public class NPCinteraction : MonoBehaviour
     private void Awake()
     {
         nPC = this.GetComponent<NPC>();
+        playerStats = FindObjectOfType<PlayerStats>();
     }
 
     private void Update()
