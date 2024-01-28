@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Devil_Project/Assets/Sprites/1.png.meta
-guid: 588d30e694f80ba4db456a57b7178dc2
-========
-guid: b3ea1d5f5a654a24194e768d72e02723
->>>>>>>> mapas:Devil_Project/Assets/TIles/TILES.png.meta
+guid: a7444ab2c9b784e43869895afaea579d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -46,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -107,12 +103,9 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-<<<<<<<< HEAD:Devil_Project/Assets/Sprites/1.png.meta
-    sprites: []
-========
     sprites:
     - serializedVersion: 2
-      name: TILES_0
+      name: TILES 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -126,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 923894f2a1c973a46af6256b1c158189
-      internalID: 1607249248
+      spriteID: 3bb5aa8c54e518744948813b7afccdf8
+      internalID: -1393268607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TILES_1
+      name: TILES 1_1
       rect:
         serializedVersion: 2
         x: 1000
@@ -147,14 +140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8bc4b92edc5122448a108d32db2d4a3
-      internalID: 176330254
+      spriteID: 4743b2570eed7c54687b7548ed1b6bbf
+      internalID: -1381776940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TILES_2
+      name: TILES 1_2
       rect:
         serializedVersion: 2
         x: 0
@@ -168,14 +161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81ff8d27ef0c5784d8f2267a635feb05
-      internalID: -1328510447
+      spriteID: 30c4fb77944bc0446abda5e83a7d1b6d
+      internalID: -521834157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TILES_3
+      name: TILES 1_3
       rect:
         serializedVersion: 2
         x: 1000
@@ -189,13 +182,12 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 208f3df496f8f6e42ad368e43951feb9
-      internalID: -1135009950
+      spriteID: 08d7df8db30afa845949d5c550ef9ca7
+      internalID: -557114777
       vertices: []
       indices: 
       edges: []
       weights: []
->>>>>>>> mapas:Devil_Project/Assets/TIles/TILES.png.meta
     outline: []
     physicsShape: []
     bones: []
@@ -206,15 +198,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-<<<<<<<< HEAD:Devil_Project/Assets/Sprites/1.png.meta
-    nameFileIdTable: {}
-========
     nameFileIdTable:
-      TILES_2: -1328510447
-      TILES_1: 176330254
-      TILES_3: -1135009950
-      TILES_0: 1607249248
->>>>>>>> mapas:Devil_Project/Assets/TIles/TILES.png.meta
+      TILES 1_2: -521834157
+      TILES 1_0: -1393268607
+      TILES 1_1: -1381776940
+      TILES 1_3: -557114777
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

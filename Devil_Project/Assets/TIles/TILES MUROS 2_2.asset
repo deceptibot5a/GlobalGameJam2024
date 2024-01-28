@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: TILES_2
+  m_Name: TILES MUROS 2_2
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -1328510447, guid: b3ea1d5f5a654a24194e768d72e02723, type: 3}
+  m_Sprite: {fileID: -1954512252, guid: a43d192182f243c4fa61da8a84199469, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
@@ -33,4 +33,4 @@ MonoBehaviour:
     e33: 1
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 1
-  m_ColliderType: 0
+  m_ColliderType: 1
