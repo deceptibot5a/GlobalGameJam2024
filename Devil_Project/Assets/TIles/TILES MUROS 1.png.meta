@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Devil_Project/Assets/Sprites/1.png.meta
-guid: 588d30e694f80ba4db456a57b7178dc2
-========
-guid: b3ea1d5f5a654a24194e768d72e02723
->>>>>>>> mapas:Devil_Project/Assets/TIles/TILES.png.meta
+guid: aa86c9dd727d1c24a9f366661831bef1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -46,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -105,14 +101,86 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-<<<<<<<< HEAD:Devil_Project/Assets/Sprites/1.png.meta
-    sprites: []
-========
     sprites:
     - serializedVersion: 2
-      name: TILES_0
+      name: TILES MUROS 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2000
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84517f6c8f402b9469a767bae4114641
+      internalID: 201851008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILES MUROS 1_1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2000
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4161193f78fb5e84397260accc8f31eb
+      internalID: 950700520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILES MUROS 1_2
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2000
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6bd3ea9923d8740946ba0b2d75d438
+      internalID: -1783020485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILES MUROS 1_3
       rect:
         serializedVersion: 2
         x: 0
@@ -126,14 +194,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 923894f2a1c973a46af6256b1c158189
-      internalID: 1607249248
+      spriteID: 4fed864fe20a1944f9d886cd5d13237a
+      internalID: -397323540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TILES_1
+      name: TILES MUROS 1_4
       rect:
         serializedVersion: 2
         x: 1000
@@ -147,14 +215,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8bc4b92edc5122448a108d32db2d4a3
-      internalID: 176330254
+      spriteID: 80af7dbb38eb1d24ca3be2d2ce9b3c26
+      internalID: 133085323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TILES_2
+      name: TILES MUROS 1_5
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1000
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a834316296b429e4c895442ad7e979b1
+      internalID: -2028775942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILES MUROS 1_6
       rect:
         serializedVersion: 2
         x: 0
@@ -168,14 +257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81ff8d27ef0c5784d8f2267a635feb05
-      internalID: -1328510447
+      spriteID: 6805fce18a07a8847b67ccf2282f57e8
+      internalID: -271086905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TILES_3
+      name: TILES MUROS 1_7
       rect:
         serializedVersion: 2
         x: 1000
@@ -189,13 +278,33 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 208f3df496f8f6e42ad368e43951feb9
-      internalID: -1135009950
+      spriteID: 9ecdbe8c8eeef06468ec90972762951e
+      internalID: -1779220767
       vertices: []
       indices: 
       edges: []
       weights: []
->>>>>>>> mapas:Devil_Project/Assets/TIles/TILES.png.meta
+    - serializedVersion: 2
+      name: TILES MUROS 1_8
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9fe8b1e6e4b0647bf05a692c7ef168
+      internalID: -1970596011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -206,15 +315,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-<<<<<<<< HEAD:Devil_Project/Assets/Sprites/1.png.meta
-    nameFileIdTable: {}
-========
     nameFileIdTable:
-      TILES_2: -1328510447
-      TILES_1: 176330254
-      TILES_3: -1135009950
-      TILES_0: 1607249248
->>>>>>>> mapas:Devil_Project/Assets/TIles/TILES.png.meta
+      TILES MUROS 1_0: 201851008
+      TILES MUROS 1_8: -1970596011
+      TILES MUROS 1_1: 950700520
+      TILES MUROS 1_2: -1783020485
+      TILES MUROS 1_6: -271086905
+      TILES MUROS 1_3: -397323540
+      TILES MUROS 1_4: 133085323
+      TILES MUROS 1_7: -1779220767
+      TILES MUROS 1_5: -2028775942
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
