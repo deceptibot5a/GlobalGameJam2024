@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Floor
+  - habitacion2
+  - habitacion1
+  - habitacion3
+  - habitacion4
+  - habitacion5
   layers:
   - Default
   - TransparentFX
