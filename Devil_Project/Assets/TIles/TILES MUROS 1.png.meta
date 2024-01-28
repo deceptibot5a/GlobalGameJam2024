@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5ee804077a4f6df42b054d1f0111acaf
+guid: aa86c9dd727d1c24a9f366661831bef1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -101,11 +101,23 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TILES MUROS_0
+      name: TILES MUROS 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e2bd77abe39f624ba48ab60883afa00
-      internalID: 966102433
+      spriteID: 84517f6c8f402b9469a767bae4114641
+      internalID: 201851008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TILES MUROS_1
+      name: TILES MUROS 1_1
       rect:
         serializedVersion: 2
         x: 1000
@@ -140,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bb4bf7e9438900428da6d74467298f6
-      internalID: 490107536
+      spriteID: 4161193f78fb5e84397260accc8f31eb
+      internalID: 950700520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TILES MUROS_2
+      name: TILES MUROS 1_2
       rect:
         serializedVersion: 2
         x: 2000
@@ -161,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 434de35a0f1e0c44b8770793e334f178
-      internalID: 1299527229
+      spriteID: 8a6bd3ea9923d8740946ba0b2d75d438
+      internalID: -1783020485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TILES MUROS_3
+      name: TILES MUROS 1_3
       rect:
         serializedVersion: 2
         x: 0
@@ -182,14 +194,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78fa69213b068724eb2139ca08f94d5b
-      internalID: 213714046
+      spriteID: 4fed864fe20a1944f9d886cd5d13237a
+      internalID: -397323540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TILES MUROS_4
+      name: TILES MUROS 1_4
       rect:
         serializedVersion: 2
         x: 1000
@@ -203,14 +215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8521384accee38a4495121b00b801f68
-      internalID: -1356782016
+      spriteID: 80af7dbb38eb1d24ca3be2d2ce9b3c26
+      internalID: 133085323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TILES MUROS_5
+      name: TILES MUROS 1_5
       rect:
         serializedVersion: 2
         x: 2000
@@ -224,14 +236,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afff9874ef983f64fb62edd5facf794b
-      internalID: 2114024232
+      spriteID: a834316296b429e4c895442ad7e979b1
+      internalID: -2028775942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TILES MUROS_6
+      name: TILES MUROS 1_6
       rect:
         serializedVersion: 2
         x: 0
@@ -245,14 +257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a03d51b10281de3429bff8e8b5df5b96
-      internalID: 679676883
+      spriteID: 6805fce18a07a8847b67ccf2282f57e8
+      internalID: -271086905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TILES MUROS_7
+      name: TILES MUROS 1_7
       rect:
         serializedVersion: 2
         x: 1000
@@ -266,14 +278,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 445d09bb4339f1144b3236476f501259
-      internalID: 343743634
+      spriteID: 9ecdbe8c8eeef06468ec90972762951e
+      internalID: -1779220767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TILES MUROS_8
+      name: TILES MUROS 1_8
       rect:
         serializedVersion: 2
         x: 2000
@@ -287,8 +299,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 593494410104a6f428744148b9a54cf3
-      internalID: 1430298072
+      spriteID: 2e9fe8b1e6e4b0647bf05a692c7ef168
+      internalID: -1970596011
       vertices: []
       indices: 
       edges: []
@@ -304,15 +316,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      TILES MUROS_3: 213714046
-      TILES MUROS_0: 966102433
-      TILES MUROS_7: 343743634
-      TILES MUROS_1: 490107536
-      TILES MUROS_8: 1430298072
-      TILES MUROS_2: 1299527229
-      TILES MUROS_4: -1356782016
-      TILES MUROS_6: 679676883
-      TILES MUROS_5: 2114024232
+      TILES MUROS 1_0: 201851008
+      TILES MUROS 1_8: -1970596011
+      TILES MUROS 1_1: 950700520
+      TILES MUROS 1_2: -1783020485
+      TILES MUROS 1_6: -271086905
+      TILES MUROS 1_3: -397323540
+      TILES MUROS 1_4: 133085323
+      TILES MUROS 1_7: -1779220767
+      TILES MUROS 1_5: -2028775942
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: TILES MUROS 2_0
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 987784132, guid: a43d192182f243c4fa61da8a84199469, type: 3}
+  m_Sprite: {fileID: -1773568177, guid: fe1887f0aced7234d8c98fb137cdb3cd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

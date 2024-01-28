@@ -10,9 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<<< HEAD:Devil_Project/Assets/TIles/TILES 1_3.asset
+  m_Name: TILES 1_3
+  m_EditorClassIdentifier: 
+  m_Sprite: {fileID: -557114777, guid: a7444ab2c9b784e43869895afaea579d, type: 3}
+========
   m_Name: TILES 1_1
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -1381776940, guid: a7444ab2c9b784e43869895afaea579d, type: 3}
+  m_Sprite: {fileID: -995566234, guid: ee302c442bbc0cf4183d24187b76209b, type: 3}
+>>>>>>>> eecc749761e5e4e06bd9f569a23a11be50344fd6:Devil_Project/Assets/TIles/TILES 1_1.asset
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
@@ -33,4 +39,4 @@ MonoBehaviour:
     e33: 1
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 1
-  m_ColliderType: 0
+  m_ColliderType: 1
