@@ -32,7 +32,7 @@ public class CharacterSO : ScriptableObject
     }
 
     public bool GetIsDiavlo() { 
-    return isDiablo;
+        return isDiablo;
     }
     public void SetIsDiavlo(bool temp)
     {

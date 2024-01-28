@@ -11,6 +11,7 @@ public class UiEventManagerScript : MonoBehaviour
     [SerializeField] GameObject chatBox;
     [SerializeField] Image avatar;
     [SerializeField] CharacterSO character;
+    [SerializeField] PlayerStats playerStats;
     private void Start()
     {
         SetSkins();
@@ -37,5 +38,14 @@ public class UiEventManagerScript : MonoBehaviour
     public void Machetear() 
     {
         print("Machetear");
+
+        if (!character.GetIsDiavlo())
+        {
+            character.SetDeath();
+            --playerStats.life;
+            playerStats.interactedNPC.SetUnctive();
+            //desactivar personaje
+        }
+        
     }
 }
