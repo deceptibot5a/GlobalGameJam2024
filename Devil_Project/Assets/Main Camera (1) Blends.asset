@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Main Camera (1) Blends
   m_EditorClassIdentifier: 
   m_CustomBlends:
-  - m_From: CAM HAB1
-    m_To: CAM HAB2
+  - m_From: hab-1
+    m_To: hab-2
     m_Blend:
       m_Style: 0
       m_Time: 2
@@ -24,8 +24,8 @@ MonoBehaviour:
         m_PreInfinity: 0
         m_PostInfinity: 0
         m_RotationOrder: 0
-  - m_From: CAM HAB1
-    m_To: CAM HAB2
+  - m_From: hab-2
+    m_To: hab-1
     m_Blend:
       m_Style: 0
       m_Time: 2
@@ -35,8 +35,8 @@ MonoBehaviour:
         m_PreInfinity: 0
         m_PostInfinity: 0
         m_RotationOrder: 0
-  - m_From: CAM HAB3
-    m_To: 'CAM HAB4 '
+  - m_From: hab-2
+    m_To: hab-3
     m_Blend:
       m_Style: 0
       m_Time: 2
@@ -46,8 +46,8 @@ MonoBehaviour:
         m_PreInfinity: 0
         m_PostInfinity: 0
         m_RotationOrder: 0
-  - m_From: 'CAM HAB4 '
-    m_To: CAM HAB3
+  - m_From: hab-3
+    m_To: hab-2
     m_Blend:
       m_Style: 0
       m_Time: 2
@@ -57,8 +57,8 @@ MonoBehaviour:
         m_PreInfinity: 0
         m_PostInfinity: 0
         m_RotationOrder: 0
-  - m_From: CAM HAB1
-    m_To: 'CAM HAB4 '
+  - m_From: hab-3
+    m_To: hab-4
     m_Blend:
       m_Style: 0
       m_Time: 2
@@ -68,8 +68,8 @@ MonoBehaviour:
         m_PreInfinity: 0
         m_PostInfinity: 0
         m_RotationOrder: 0
-  - m_From: CAM HAB1
-    m_To: CAM HAB5
+  - m_From: hab-4
+    m_To: hab-1
     m_Blend:
       m_Style: 0
       m_Time: 2
@@ -79,10 +79,10 @@ MonoBehaviour:
         m_PreInfinity: 0
         m_PostInfinity: 0
         m_RotationOrder: 0
-  - m_From: CAM HAB5
-    m_To: CAM HAB1
+  - m_From: hab-4
+    m_To: hab-3
     m_Blend:
-      m_Style: 0
+      m_Style: 1
       m_Time: 2
       m_CustomCurve:
         serializedVersion: 2
