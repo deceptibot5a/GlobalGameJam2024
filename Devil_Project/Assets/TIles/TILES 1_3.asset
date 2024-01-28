@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: TILES MUROS_5
+  m_Name: TILES 1_3
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 2114024232, guid: 5ee804077a4f6df42b054d1f0111acaf, type: 3}
+  m_Sprite: {fileID: -621579126, guid: ee302c442bbc0cf4183d24187b76209b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
