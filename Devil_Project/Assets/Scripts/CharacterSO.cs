@@ -11,12 +11,20 @@ public class CharacterSO : ScriptableObject
     [Header(" ")]
     [SerializeField] Sprite avatar;
     [SerializeField] bool isDead = false;
+    [SerializeField] bool isDiablo = false;
 
     public string GetCharacterName()
     {
         return name;
     }
 
+    public bool GetIsDiavlo() { 
+    return isDiablo;
+    }
+    public void SetIsDiavlo(bool temp)
+    {
+        isDiablo = temp;
+    }
     public string GetDialogue ()
     {
         return Dialogue;

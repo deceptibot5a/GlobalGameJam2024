@@ -5,10 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class NPCinteraction : MonoBehaviour
 {
-
+    [SerializeField] UiEventManagerScript uiManager;
+    [SerializeField] GameObject canvas;
+    [SerializeField] NPC nPC;
+    private void Awake()
+    {
+        nPC = this.GetComponent<NPC>();
+    }
     void OnMouseDown()
     {
         Debug.Log("Object Clicked!");
-        SceneManager.LoadScene("DialogueSystemPlayGround", LoadSceneMode.Additive);
+        canvas.SetActive(true);
+        uiManager.setCharacter(nPC.GetCharacter());
+        Time.timeScale = .5f;
     }
 }

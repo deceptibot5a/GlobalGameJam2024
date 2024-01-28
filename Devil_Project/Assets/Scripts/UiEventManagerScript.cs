@@ -13,14 +13,25 @@ public class UiEventManagerScript : MonoBehaviour
     [SerializeField] CharacterSO character;
     private void Start()
     {
+        SetSkins();
+    }
+
+    private void SetSkins()
+    {
         nameText.text = character.GetCharacterName();
         dialog.text = character.GetDialogue();
         avatar.sprite = character.GetAvatar();
     }
 
+    public void setCharacter(CharacterSO characterSO)
+    {
+        character = characterSO;
+        SetSkins();
+    }
     public void CloseDialogue()
     {
         chatBox.SetActive(false);
+        Time.timeScale = 1.0f;
     }
 
     public void Machetear() 
