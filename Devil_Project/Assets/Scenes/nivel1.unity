@@ -1891,7 +1891,7 @@ MonoBehaviour:
   virtualCamera2: {fileID: 1644805989}
   virtualCamera3: {fileID: 803058363}
   virtualCamera4: {fileID: 615482988}
-  virtualCamera5: {fileID: 0}
+  virtualCamera5: {fileID: 1401824520}
 --- !u!1 &896762684
 GameObject:
   m_ObjectHideFlags: 0
@@ -5266,7 +5266,7 @@ MonoBehaviour:
   virtualCamera2: {fileID: 1644805989}
   virtualCamera3: {fileID: 803058363}
   virtualCamera4: {fileID: 615482988}
-  virtualCamera5: {fileID: 0}
+  virtualCamera5: {fileID: 1401824520}
 --- !u!1 &1508459469
 GameObject:
   m_ObjectHideFlags: 3
