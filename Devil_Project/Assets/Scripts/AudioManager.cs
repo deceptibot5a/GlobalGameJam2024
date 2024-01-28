@@ -4,21 +4,29 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    private AudioSource audioSource;
+    [SerializeField] AudioSource audioMusica;
+    [SerializeField] AudioSource audioMachete;
+    [SerializeField] AudioSource audioPasos;
+    [SerializeField] AudioSource audioMuerte;
+    [SerializeField] AudioSource audioTeleport;
 
-    void Start()
-    {
-        audioSource = GetComponent<AudioSource>();
-    }
     public void ToggleMute()
     {
-        if (audioSource.volume > 0)
+        if (audioMusica.volume > 0)
         {
-            audioSource.volume = 0;
+            audioMusica.volume = 0;
         }
         else
         {
-            audioSource.volume = 1;
+            audioMusica.volume = 1;
         }
+    }
+    public void Machetear()
+    {
+        audioMachete.Play();
+    }
+    public void DiabloMuerte()
+    {
+        audioMuerte.Play();
     }
 }
