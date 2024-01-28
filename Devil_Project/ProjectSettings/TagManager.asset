@@ -10,6 +10,7 @@ TagManager:
   - habitacion3
   - habitacion4
   - habitacion5
+  - NPC
   layers:
   - Default
   - TransparentFX
