@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.TextCore.Text;
 
 public class UiEventManagerScript : MonoBehaviour
 {
@@ -46,7 +47,7 @@ public class UiEventManagerScript : MonoBehaviour
 
         if (!character.GetIsDiavlo())
         {
-            /*character.SetDeath(true);
+            character.SetDeath(true);
             playerStats.life = playerStats.life - 1;
             playerStats.interactedNPC.SetUnctive();
             //desactivar personaje*/

@@ -50,6 +50,17 @@ public class SpawnNPC : MonoBehaviour
         
 
     }
+
+    private void LateUpdate()
+    {
+        for (int i = 0; i < usedCharacters.Count; i++)
+        {
+            if (usedCharacters[i].GetDeath())
+            {
+                textMeshProUGUI[i].color = new Vector4(255, 0, 0, 1);
+            }
+        }
+    }
     public void GiveRandomCharacters()
     {
         int populateIndex = UnityEngine.Random.Range(0, characters.Count);
@@ -100,13 +111,7 @@ public class SpawnNPC : MonoBehaviour
         usedCharacters[randomSelector].SetIsDiavlo(true);
         usedCharacters[randomSelector].SetDeath(true);
 
-        for (int i = 0; i < usedCharacters.Count; i++)
-        {
-            if (usedCharacters[i].GetDeath())
-            {
-                textMeshProUGUI[i].color = new Vector4(255, 0, 0, 1);
-            }
-        }
+       
         
         yield return new WaitForSeconds(timeForKill);
 
