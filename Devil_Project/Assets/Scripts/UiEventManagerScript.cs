@@ -52,7 +52,8 @@ public class UiEventManagerScript : MonoBehaviour
     public void CloseDialogue()
     {
         chatBox.SetActive(false);
-        Time.timeScale = 1.0f;
+        
+
     }
 
     public void Machetear()
@@ -79,14 +80,17 @@ public class UiEventManagerScript : MonoBehaviour
     }
     public void WinScreen()
     {
+        Time.timeScale = 0.1f;
+        listIsOpen = !listIsOpen;
         endingCanvas.SetActive(true);
         winMessage.SetActive(true);
-        Time.timeScale = .5f;
+        
     }
     public void LoseScreen()
     {
+        Time.timeScale = 0.1f;
+        listIsOpen = !listIsOpen;
         endingCanvas.SetActive(true);
-        loseMessage.SetActive(true);
-        Time.timeScale = 0f;
+        loseMessage.SetActive(true);   
     }
 }

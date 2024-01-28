@@ -38,7 +38,7 @@ public class NPCinteraction : MonoBehaviour
                 canvas.SetActive(true);
                 playerStats.interactedNPC = nPC;
                 uiManager.SetCharacter(nPC.GetCharacter());
-                Time.timeScale = .5f;
+                
             }
             
         }

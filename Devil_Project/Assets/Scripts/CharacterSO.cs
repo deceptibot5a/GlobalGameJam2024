@@ -24,8 +24,6 @@ public class CharacterSO : ScriptableObject
     {
         textMeshProUGUI.text = name;
     }
-    
-
     public string GetCharacterName()
     {
         return name;

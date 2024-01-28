@@ -882,59 +882,17 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 353609332455949103, guid: 8bbaa1a3ddc02ac4dbe48809ff293f67, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8bbaa1a3ddc02ac4dbe48809ff293f67, type: 3}
---- !u!1 &103778640
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 103778641}
-  - component: {fileID: 103778642}
-  m_Layer: 0
-  m_Name: UiEventManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &103778641
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 103778640}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &103778642
+--- !u!114 &103778642 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 2306822608542572050, guid: 63956e427040cad4cae20291c37dbbbb, type: 3}
+  m_PrefabInstance: {fileID: 8191783983721983634}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 103778640}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b37b255672970f840a8ed720302a4080, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: {fileID: 1416126410}
-  dialog: {fileID: 685114054}
-  chatBox: {fileID: 1532359075}
-  avatar: {fileID: 1098528867}
-  character: {fileID: 11400000, guid: 04d316b69e698144aa0df9b591c14a38, type: 2}
-  playerStats: {fileID: 0}
-  winMessage: {fileID: 2617661149724486859}
-  loseMessage: {fileID: 2617661149116705702}
-  endingCanvas: {fileID: 2617661148393601551}
 --- !u!1001 &125853805
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11937,3 +11895,88 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4290744009762365165, guid: 6fc3e7db61deda7499a65614cadda941, type: 3}
   m_PrefabInstance: {fileID: 2294588424695214630}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8191783983721983634
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2306822608542572048, guid: 63956e427040cad4cae20291c37dbbbb, type: 3}
+      propertyPath: m_Name
+      value: UiEventManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 2306822608542572049, guid: 63956e427040cad4cae20291c37dbbbb, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2306822608542572049, guid: 63956e427040cad4cae20291c37dbbbb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2306822608542572049, guid: 63956e427040cad4cae20291c37dbbbb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2306822608542572049, guid: 63956e427040cad4cae20291c37dbbbb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2306822608542572049, guid: 63956e427040cad4cae20291c37dbbbb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2306822608542572049, guid: 63956e427040cad4cae20291c37dbbbb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2306822608542572049, guid: 63956e427040cad4cae20291c37dbbbb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2306822608542572049, guid: 63956e427040cad4cae20291c37dbbbb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2306822608542572049, guid: 63956e427040cad4cae20291c37dbbbb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2306822608542572049, guid: 63956e427040cad4cae20291c37dbbbb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2306822608542572049, guid: 63956e427040cad4cae20291c37dbbbb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2306822608542572050, guid: 63956e427040cad4cae20291c37dbbbb, type: 3}
+      propertyPath: avatar
+      value: 
+      objectReference: {fileID: 1098528867}
+    - target: {fileID: 2306822608542572050, guid: 63956e427040cad4cae20291c37dbbbb, type: 3}
+      propertyPath: dialog
+      value: 
+      objectReference: {fileID: 685114054}
+    - target: {fileID: 2306822608542572050, guid: 63956e427040cad4cae20291c37dbbbb, type: 3}
+      propertyPath: chatBox
+      value: 
+      objectReference: {fileID: 1532359075}
+    - target: {fileID: 2306822608542572050, guid: 63956e427040cad4cae20291c37dbbbb, type: 3}
+      propertyPath: nameText
+      value: 
+      objectReference: {fileID: 1416126410}
+    - target: {fileID: 2306822608542572050, guid: 63956e427040cad4cae20291c37dbbbb, type: 3}
+      propertyPath: winMessage
+      value: 
+      objectReference: {fileID: 2617661149724486859}
+    - target: {fileID: 2306822608542572050, guid: 63956e427040cad4cae20291c37dbbbb, type: 3}
+      propertyPath: loseMessage
+      value: 
+      objectReference: {fileID: 2617661149116705702}
+    - target: {fileID: 2306822608542572050, guid: 63956e427040cad4cae20291c37dbbbb, type: 3}
+      propertyPath: endingCanvas
+      value: 
+      objectReference: {fileID: 2617661148393601551}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 63956e427040cad4cae20291c37dbbbb, type: 3}
