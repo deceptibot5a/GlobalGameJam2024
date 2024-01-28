@@ -12,13 +12,13 @@ public class AudioManager : MonoBehaviour
     }
     public void ToggleMute()
     {
-        if (audioSource.enabled)
+        if (audioSource.volume > 0)
         {
-            audioSource.enabled = false;
+            audioSource.volume = 0;
         }
         else
         {
-            audioSource.enabled = true;
+            audioSource.volume = 1;
         }
     }
 }
