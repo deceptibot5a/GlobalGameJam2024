@@ -60,6 +60,7 @@ public class SpawnNPC : MonoBehaviour
             if (usedCharacters[i].GetDeath())
             {
                 textMeshProUGUI[i].color = new Vector4(255, 0, 0, 1);
+                textMeshProUGUI[i].fontStyle = TMPro.FontStyles.Strikethrough;
             }
         }
     }

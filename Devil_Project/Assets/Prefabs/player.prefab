@@ -58,7 +58,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8f07201146a8b044aa734932b6ca1f99, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -124,6 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
+  audioManager: {fileID: 0}
 --- !u!114 &1883453427513363298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,6 +197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c3ca1f4443298445b701de683289d31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TeleportNivel2: {fileID: 0}
   virtualCamera1: {fileID: 0}
   virtualCamera2: {fileID: 0}
   virtualCamera3: {fileID: 0}
