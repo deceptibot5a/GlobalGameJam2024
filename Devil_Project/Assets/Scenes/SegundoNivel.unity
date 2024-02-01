@@ -730,6 +730,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -1.8465058
       objectReference: {fileID: 0}
+    - target: {fileID: 3886998170386700691, guid: 170ec0d00b2c0af469c689dccf7f1bad, type: 3}
+      propertyPath: m_BodyType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886998170386700691, guid: 170ec0d00b2c0af469c689dccf7f1bad, type: 3}
+      propertyPath: m_Constraints
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3886998170444011161, guid: 170ec0d00b2c0af469c689dccf7f1bad, type: 3}
     - {fileID: 3886998170275202482, guid: 170ec0d00b2c0af469c689dccf7f1bad, type: 3}

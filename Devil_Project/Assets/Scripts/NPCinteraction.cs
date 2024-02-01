@@ -12,7 +12,7 @@ public class NPCinteraction : MonoBehaviour
     [SerializeField] PlayerStats playerStats;
     private void Awake()
     {
-        nPC = this.GetComponent<NPC>();
+        nPC = this.GetComponentInParent<NPC>();
         playerStats = FindObjectOfType<PlayerStats>();
     }
 

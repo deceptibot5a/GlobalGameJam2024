@@ -16,7 +16,7 @@ public class NPC : MonoBehaviour
 
     private void Awake()
     {
-        spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
+        spriteRenderer = gameObject.GetComponentInChildren<SpriteRenderer>();
         
         nPC = this.gameObject;
         

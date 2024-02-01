@@ -8,6 +8,7 @@ public class Movement : MonoBehaviour
 
     [SerializeField] private float speed = 3f;
     SpriteRenderer spriteRenderer;
+    [SerializeField] AudioManager audioManager;
 
     bool facingRight = true;
     private Rigidbody2D player;
@@ -16,6 +17,7 @@ public class Movement : MonoBehaviour
 
     void Awake()
     {
+        audioManager = FindObjectOfType<AudioManager>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         player = GetComponent<Rigidbody2D>();
     }
@@ -27,6 +29,19 @@ public class Movement : MonoBehaviour
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
         moveInput = new Vector2(moveX, moveY).normalized;
+        if (!audioManager.IsPlaying())
+        {
+            if (moveX > 0 || moveX < 0 || moveY > 0 || moveY < 0)
+            {
+                audioManager.Steps();
+            }
+            else
+            {
+                audioManager.ForceStopSteps();
+            }
+        }
+
+
         if (moveX < 0 && facingRight)
         {
             Flip();

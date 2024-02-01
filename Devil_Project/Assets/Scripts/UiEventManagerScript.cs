@@ -76,8 +76,9 @@ public class UiEventManagerScript : MonoBehaviour
         }
         else
         {
-            audioManager.DiabloMuerte();
             WinScreen();
+            audioManager.DiabloMuerte();
+            
         }
 
     }

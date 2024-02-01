@@ -18,7 +18,7 @@ public class RandomMovement : MonoBehaviour
     Vector2 direction;
     private void Awake()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
     private void Start()
     {

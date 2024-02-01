@@ -10,6 +10,24 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AudioSource audioMuerte;
     [SerializeField] AudioSource audioTeleport;
 
+    public bool IsPlaying()
+    {
+        if (
+            audioMachete.isPlaying ||
+            audioPasos.isPlaying ||
+            audioTeleport.isPlaying ||
+            audioMuerte.isPlaying 
+        )
+        {
+            return true;
+        }
+        else { return false; }
+    }
+
+    public void ForceStopSteps ()
+    {
+        audioPasos.Stop ();
+    }
     public void ToggleMute()
     {
         if (audioMusica.volume > 0)
@@ -28,5 +46,14 @@ public class AudioManager : MonoBehaviour
     public void DiabloMuerte()
     {
         audioMuerte.Play();
+    }
+
+    public void Teleport ()
+    {
+        audioTeleport.Play();
+    }
+    public void Steps()
+    {
+        audioPasos.Play();
     }
 }

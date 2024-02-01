@@ -1,43 +1,3 @@
-//using Cinemachine;
-//using System.Collections;
-//using System.Collections.Generic;
-//using UnityEngine;
-
-//public class teleport1 : MonoBehaviour
-//{
-//    public teleport1  portal1; // [SerializeField]
-//    private GameObject player;
-
-//    //public CinemachineVirtualCamera micamara;
-//    // Start is called before the first frame update
-//    void Start()
-//    {
-//        player = GameObject.FindWithTag("Player");
-//    }
-
-//    // Update is called once per frame
-//    private void OnTriggerEnter2D(Collider2D collision)
-//    {
-//        if (collision.tag == "Player")
-//        {
-//            player.transform.position = new Vector2(portal1.transform.position.x, portal1.transform.position.y);
-//            //salida();
-//        }
-//    }
-
-//    public void llegada()
-//    {
-//        player.transform.position = new Vector2(portal1.transform.position.x, portal1.transform.position.y);
-
-//    }
-
-//    public void salida ()
-//    {
-//        portal1.llegada();
-//        //micamara.Priority = portal1.micamara.Priority - 1;
-//    }
-//}
-
 
 using System.Collections;
 using System.Collections.Generic;
@@ -46,11 +6,11 @@ using UnityEngine;
 public class teleport1 : MonoBehaviour
 {
     Camaras camaras;
-    public GameObject portal1; // [SerializeField]
-    // Start is called before the first frame update
+    [SerializeField] GameObject portal1;
+    [SerializeField] AudioManager audioManager;
     void Awake()
     {
-       
+       audioManager = FindObjectOfType<AudioManager>();
        camaras = FindObjectOfType<Camaras>();
     }
 
@@ -64,6 +24,7 @@ public class teleport1 : MonoBehaviour
         }
         if (collision.tag == "Player" )
         {
+            audioManager.Teleport();
             collision.transform.position = new Vector2(portal1.transform.position.x, portal1.transform.position.y);
             camaras.DetectCollisionLvl1(collider);
         }

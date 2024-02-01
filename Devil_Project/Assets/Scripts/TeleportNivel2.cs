@@ -5,11 +5,11 @@ using UnityEngine;
 public class TeleportNivel2 : MonoBehaviour
 {
     CamarasNivel2 camarasNivel2;
-    public GameObject portal1; // [SerializeField]
-    // Start is called before the first frame update
+    [SerializeField] GameObject portal1;
+    [SerializeField] AudioManager audioManager;
     void Awake()
     {
-
+        audioManager = FindObjectOfType<AudioManager>();
         camarasNivel2 = FindObjectOfType<CamarasNivel2>();
     }
 
@@ -23,6 +23,7 @@ public class TeleportNivel2 : MonoBehaviour
         }
         if (collision.tag == "Player")
         {
+            audioManager.Teleport();
             collision.transform.position = new Vector2(portal1.transform.position.x, portal1.transform.position.y);
             camarasNivel2.DetectCollision(collider);
         }
