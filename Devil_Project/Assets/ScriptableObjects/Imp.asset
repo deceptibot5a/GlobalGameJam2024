@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cad49f0190d12148bfdcb76d30443bd, type: 3}
   m_Name: Imp
   m_EditorClassIdentifier: 
-  name: IMP
-  Dialogue: Enter a dialogue
+  name: Diablillo
+  Dialogue: Paso que voy ardiendo
   avatar: {fileID: 21300000, guid: 217493fa88ce39d499c92e71cc5eef1d, type: 3}
   isDead: 0
   isDiablo: 0

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Nart Val
   m_EditorClassIdentifier: 
   name: Nart Val
-  Dialogue: Enter a dialogue
+  Dialogue: Benditos sean los ScriptableObjects
   avatar: {fileID: 21300000, guid: b95ef9c7c51252240886e4c66b4b8ac7, type: 3}
   isDead: 0
   isDiablo: 0

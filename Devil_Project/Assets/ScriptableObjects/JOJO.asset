@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: JOJO
   m_EditorClassIdentifier: 
   name: YioYio
-  Dialogue: Enter a dialogue
+  Dialogue: Kono Diablo Da!!
   avatar: {fileID: 21300000, guid: e0d8cedfc0fcc9544bbd08d4f197ae3e, type: 3}
   isDead: 0
   isDiablo: 0

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Goma Calva
   m_EditorClassIdentifier: 
   name: Goma Calva
-  Dialogue: Enter a dialogue
+  Dialogue: La mala pa'a Groom
   avatar: {fileID: 21300000, guid: d898d25d1d178e048a4c033e12eb49b0, type: 3}
   isDead: 0
   isDiablo: 0

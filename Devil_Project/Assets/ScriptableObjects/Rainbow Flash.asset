@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Rainbow Flash
   m_EditorClassIdentifier: 
   name: Rainbow Flash
-  Dialogue: Enter a dialogue
+  Dialogue: Nunca vi my little potro
   avatar: {fileID: 21300000, guid: 56f211cedfe1c1c4d956e3dd6c784e3c, type: 3}
   isDead: 0
   isDiablo: 0

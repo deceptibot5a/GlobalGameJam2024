@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Mary Jean
   m_EditorClassIdentifier: 
   name: Mery Jean
-  Dialogue: Enter a dialogue
+  Dialogue: No digo mamadas
   avatar: {fileID: 21300000, guid: 93561ff7db79d6e41b3566d2409262fa, type: 3}
   isDead: 0
   isDiablo: 0

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Como ta muchacho
   m_EditorClassIdentifier: 
   name: Como ta muchacho
-  Dialogue: Enter a dialogue
+  Dialogue: Quieren chicle
   avatar: {fileID: 21300000, guid: 2154c0d6a81dfb0489e1ccf938d7ceba, type: 3}
   isDead: 0
   isDiablo: 0

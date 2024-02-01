@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Jack Eye Chan
   m_EditorClassIdentifier: 
   name: Jack Eye Chan
-  Dialogue: Enter a dialogue
+  Dialogue: '[Subtitulos no disponibles]'
   avatar: {fileID: 21300000, guid: a0258b573f3a05d4c91eada855027d0f, type: 3}
   isDead: 0
   isDiablo: 0

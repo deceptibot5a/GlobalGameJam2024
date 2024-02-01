@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Shinigami
   m_EditorClassIdentifier: 
   name: Shinigami
-  Dialogue: Enter a dialogue
+  Dialogue: Omae wa moe shindeiru!!!!
   avatar: {fileID: 21300000, guid: 347974908369bdc47bf912c706083b05, type: 3}
   isDead: 0
   isDiablo: 0

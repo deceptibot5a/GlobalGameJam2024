@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: El Caballero
   m_EditorClassIdentifier: 
   name: '"El Caballero"'
-  Dialogue: Enter a dialogue
+  Dialogue: Asha!!!!
   avatar: {fileID: 21300000, guid: 2a5f4487ce68adb4da51426709258106, type: 3}
   isDead: 0
   isDiablo: 0

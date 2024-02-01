@@ -65,7 +65,7 @@ public class teleport1 : MonoBehaviour
         if (collision.tag == "Player" )
         {
             collision.transform.position = new Vector2(portal1.transform.position.x, portal1.transform.position.y);
-            camaras.DetectCollision(collider);
+            camaras.DetectCollisionLvl1(collider);
         }
     }
 }

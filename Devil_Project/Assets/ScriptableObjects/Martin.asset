@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Martin
   m_EditorClassIdentifier: 
   name: Martin
-  Dialogue: Enter a dialogue
+  Dialogue: Yahooo!
   avatar: {fileID: 21300000, guid: 3fa5b49310e160d428c885f7a7a5f163, type: 3}
   isDead: 0
   isDiablo: 0

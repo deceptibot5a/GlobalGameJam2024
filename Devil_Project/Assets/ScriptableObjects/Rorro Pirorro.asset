@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Rorro Pirorro
   m_EditorClassIdentifier: 
   name: Rorro Pirorro
-  Dialogue: Enter a dialogue
+  Dialogue: Plata es lo que hay y plomo es lon que viene.
   avatar: {fileID: 21300000, guid: fef692428fb69f348aa4c62ed81a5754, type: 3}
   isDead: 0
   isDiablo: 0

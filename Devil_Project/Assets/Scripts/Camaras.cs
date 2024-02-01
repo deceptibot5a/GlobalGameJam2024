@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 using Cinemachine;
-using static UnityEditor.Progress;
+
 
 public class Camaras : MonoBehaviour
 {
@@ -34,7 +34,7 @@ public class Camaras : MonoBehaviour
 
 
 
-    public void DetectCollision(Collider2D collision)
+    public void DetectCollisionLvl1(Collider2D collision)
     {
         GameObject item = collision.gameObject;
         if (item)
@@ -46,7 +46,7 @@ public class Camaras : MonoBehaviour
         }
         //intento
 
-        if (true)
+        if (item != null)
         {
             if (item.CompareTag("habitacion1"))
             {
