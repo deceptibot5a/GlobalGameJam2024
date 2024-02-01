@@ -16,9 +16,11 @@ public class SpawnNPC : MonoBehaviour
     [SerializeField] List<CharacterSO> usedCharacters = new List<CharacterSO>();
     [SerializeField] TextMeshProUGUI[] textMeshProUGUI;
     [SerializeField] NPC[] nPCs;
+    [SerializeField] AudioManager audioManager;
 
     private void Awake()
     {
+        audioManager = FindObjectOfType<AudioManager>();
         diabloScriptInstance = diabloInstance.GetComponent<Diablo>();
         nPCs = FindObjectsOfType<NPC>();
         textMeshProUGUI = FindObjectsOfType<TextMeshProUGUI>();
@@ -46,8 +48,8 @@ public class SpawnNPC : MonoBehaviour
            
         }
         
-            StartCoroutine(SeleccionVictima());
-        
+        StartCoroutine(Esperar());
+
 
     }
 
@@ -98,9 +100,14 @@ public class SpawnNPC : MonoBehaviour
     }
 
     [SerializeField] float timeForKill;
+    [SerializeField] float startKillingSpreeTime;
+    IEnumerator Esperar()
+    {
+        yield return new WaitForSeconds(startKillingSpreeTime);
+        StartCoroutine(SeleccionVictima());
+    }
     IEnumerator SeleccionVictima()
     {
-        yield return new WaitForSeconds(3);
         int randomSelector = UnityEngine.Random.Range(0, usedCharacters.Count);
 
         if (usedCharacters[randomSelector].GetIsDiavlo() || usedCharacters[randomSelector].GetDeath())
@@ -110,11 +117,16 @@ public class SpawnNPC : MonoBehaviour
 
         usedCharacters[randomSelector].SetIsDiavlo(true);
         usedCharacters[randomSelector].SetDeath(true);
+        audioManager.NPCMuerte();
 
-       
-        
+
         yield return new WaitForSeconds(timeForKill);
 
+        MatarNPC();
+    }
+
+    private void MatarNPC()
+    {
         if (usedCharacters.Count != 0)
         {
             for (int i = 0; i < usedCharacters.Count; i++)
@@ -125,13 +137,12 @@ public class SpawnNPC : MonoBehaviour
                     diabloScriptInstance.Hunt(usedCharacters[i]);
                     nPCs[i].SetUnctive();
 
-                    
+
                 }
             }
-                
+
         }
         timeForKill = timeForKill + 1f;
         StartCoroutine(SeleccionVictima());
     }
-
 }

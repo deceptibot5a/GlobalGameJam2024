@@ -9,7 +9,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AudioSource audioPasos;
     [SerializeField] AudioSource audioMuerte;
     [SerializeField] AudioSource audioTeleport;
-
+    [SerializeField] AudioSource audioNPCMuerte;
     public bool IsPlaying()
     {
         if (
@@ -55,5 +55,9 @@ public class AudioManager : MonoBehaviour
     public void Steps()
     {
         audioPasos.Play();
+    }
+    public void NPCMuerte()
+    {
+        audioNPCMuerte.Play();
     }
 }
