@@ -35,6 +35,7 @@ public class NPCinteraction : MonoBehaviour
             //Debug.Log("Object Clicked!");
             if (!uiManager.GetListIsOpen())
             {
+                Time.timeScale = .5f;
                 canvas.SetActive(true);
                 playerStats.interactedNPC = nPC;
                 uiManager.SetCharacter(nPC.GetCharacter());

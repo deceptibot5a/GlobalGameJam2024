@@ -55,7 +55,7 @@ public class UiEventManagerScript : MonoBehaviour
     public void CloseDialogue()
     {
         chatBox.SetActive(false);
-        
+        Time.timeScale = 1f;
 
     }
 

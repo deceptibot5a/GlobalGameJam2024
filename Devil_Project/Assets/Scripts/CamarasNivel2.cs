@@ -2,7 +2,6 @@ using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using System;
-using static UnityEditor.Progress;
 using UnityEngine;
 
 public class CamarasNivel2 : MonoBehaviour

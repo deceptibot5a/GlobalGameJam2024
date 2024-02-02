@@ -19,8 +19,6 @@ public class SpawnNPC : MonoBehaviour
     [SerializeField] NPC[] nPCs;
     [SerializeField] AudioManager audioManager;
 
-    Transform transform;
-
     private void Awake()
     {
         audioManager = FindObjectOfType<AudioManager>();
@@ -60,10 +58,13 @@ public class SpawnNPC : MonoBehaviour
     {
         for (int i = 0; i < usedCharacters.Count; i++)
         {
-            if (usedCharacters[i].GetDeath())
+            if (i < usedCharacters.Count)
             {
-                textMeshProUGUI[i].color = new Vector4(255, 0, 0, 1);
-                textMeshProUGUI[i].fontStyle = TMPro.FontStyles.Strikethrough;
+                if (usedCharacters[i].GetDeath())
+                {
+                    textMeshProUGUI[i].color = new Vector4(255, 0, 0, 1);
+                    textMeshProUGUI[i].fontStyle = TMPro.FontStyles.Strikethrough;
+                } 
             }
         }
     }
@@ -105,6 +106,11 @@ public class SpawnNPC : MonoBehaviour
 
     [SerializeField] float timeForKill;
     [SerializeField] float startKillingSpreeTime;
+
+    public float GetStartKillingSpreeTime()
+    {
+        return startKillingSpreeTime;
+    }
     IEnumerator Esperar()
     {
         yield return new WaitForSeconds(startKillingSpreeTime);
@@ -137,9 +143,9 @@ public class SpawnNPC : MonoBehaviour
             {
                 if (usedCharacters[i].GetIsDiavlo() && usedCharacters[i] != null)
                 {
-
+                    Instantiate(corpseInstance, nPCs[i].transform.position, nPCs[i].transform.rotation);
                     diabloScriptInstance.Hunt(usedCharacters[i]);
-                    Instantiate(corpseInstance);
+                    
                     
                     nPCs[i].SetUnctive();
 

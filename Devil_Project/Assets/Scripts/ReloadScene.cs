@@ -5,15 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class ReloadScene : MonoBehaviour
 {
+    Scene currentScene;
     void Awake()
     {
+        currentScene = SceneManager.GetActiveScene();
         QualitySettings.vSyncCount = 1;
         Application.targetFrameRate = 60;
     }
 
     public void RestartGame()
     {
-        SceneManager.LoadSceneAsync(1, LoadSceneMode.Single);
+        SceneManager.LoadSceneAsync(currentScene.buildIndex, LoadSceneMode.Single);
         Time.timeScale = 1.0f;
     } 
 }
