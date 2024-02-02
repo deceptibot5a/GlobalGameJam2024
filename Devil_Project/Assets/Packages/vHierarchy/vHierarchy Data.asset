@@ -13,5 +13,49 @@ MonoBehaviour:
   m_Name: vHierarchy Data
   m_EditorClassIdentifier: 
   sceneDatasByGuid:
-    keys: []
-    values: []
+    keys:
+    - 5651501c355301f4bb57bfeea4dd081a
+    - 
+    values:
+    - goDatasByGlobalId:
+        keys:
+        - GlobalObjectId_V1-2-5651501c355301f4bb57bfeea4dd081a-1939708641-0
+        - GlobalObjectId_V1-2-5651501c355301f4bb57bfeea4dd081a-8051131412720988014-1868231736
+        - GlobalObjectId_V1-2-5651501c355301f4bb57bfeea4dd081a-720866506139903398-783280989
+        - GlobalObjectId_V1-2-5651501c355301f4bb57bfeea4dd081a-1375376114-0
+        - GlobalObjectId_V1-2-5651501c355301f4bb57bfeea4dd081a-1495928999-0
+        - GlobalObjectId_V1-2-5651501c355301f4bb57bfeea4dd081a-1665602442-0
+        values:
+        - iColor: 0
+          icon: Settings Icon
+        - iColor: 0
+          icon: AvatarMask On Icon
+        - iColor: 0
+          icon: MeshCollider Icon
+        - iColor: 0
+          icon: CapsuleCollider Icon
+        - iColor: 0
+          icon: Light Icon
+        - iColor: 0
+          icon: Favorite
+      goDatasByInstanceId:
+        keys: f4f1feff92f5ffffeef9ffffc66c0000e21dfffff401ffff
+        values:
+        - iColor: 0
+          icon: Settings Icon
+        - iColor: 0
+          icon: AvatarMask On Icon
+        - iColor: 0
+          icon: MeshCollider Icon
+        - iColor: 0
+          icon: CapsuleCollider Icon
+        - iColor: 0
+          icon: Light Icon
+        - iColor: 0
+          icon: Favorite
+    - goDatasByGlobalId:
+        keys: []
+        values: []
+      goDatasByInstanceId:
+        keys: 
+        values: []

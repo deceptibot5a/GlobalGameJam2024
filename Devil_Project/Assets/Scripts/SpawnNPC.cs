@@ -10,6 +10,7 @@ using UnityEngine.TextCore.Text;
 public class SpawnNPC : MonoBehaviour
 {
     [SerializeField] GameObject diabloInstance;
+    [SerializeField] GameObject corpseInstance;
     [SerializeField] Diablo diabloScriptInstance;
 
     [SerializeField] List<CharacterSO> characters = new List<CharacterSO>();
@@ -17,6 +18,8 @@ public class SpawnNPC : MonoBehaviour
     [SerializeField] TextMeshProUGUI[] textMeshProUGUI;
     [SerializeField] NPC[] nPCs;
     [SerializeField] AudioManager audioManager;
+
+    Transform transform;
 
     private void Awake()
     {
@@ -136,6 +139,8 @@ public class SpawnNPC : MonoBehaviour
                 {
 
                     diabloScriptInstance.Hunt(usedCharacters[i]);
+                    Instantiate(corpseInstance);
+                    
                     nPCs[i].SetUnctive();
 
 

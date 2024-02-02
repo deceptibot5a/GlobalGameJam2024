@@ -14,6 +14,7 @@ public class UiEventManagerScript : MonoBehaviour
     [SerializeField] CharacterSO character;
     [SerializeField] PlayerStats playerStats;
     [SerializeField] AudioManager audioManager;
+    [SerializeField] GameObject corpseInstance;
 
     [SerializeField] GameObject winMessage;
     [SerializeField] GameObject loseMessage;
@@ -61,6 +62,7 @@ public class UiEventManagerScript : MonoBehaviour
     public void Machetear()
     {
         print("Machetear");
+        Instantiate(corpseInstance, playerStats.interactedNPC.transform.position, playerStats.interactedNPC.transform.rotation);
         audioManager.Machetear();
         character.SetDeath(true);
         playerStats.interactedNPC.SetUnctive();
