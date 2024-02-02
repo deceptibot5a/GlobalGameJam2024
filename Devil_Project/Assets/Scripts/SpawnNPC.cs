@@ -9,16 +9,21 @@ using UnityEngine.TextCore.Text;
 
 public class SpawnNPC : MonoBehaviour
 {
+    [Header("Instances")]
     [SerializeField] GameObject diabloInstance;
     [SerializeField] GameObject corpseInstance;
     [SerializeField] Diablo diabloScriptInstance;
-
-    [SerializeField] List<CharacterSO> characters = new List<CharacterSO>();
-    [SerializeField] List<CharacterSO> usedCharacters = new List<CharacterSO>();
+    [Header("")]
     [SerializeField] TextMeshProUGUI[] textMeshProUGUI;
     [SerializeField] NPC[] nPCs;
     [SerializeField] AudioManager audioManager;
-
+    [Header("Data Managers")]
+    [SerializeField] List<CharacterSO> characters = new List<CharacterSO>();
+    [SerializeField] List<CharacterSO> usedCharacters = new List<CharacterSO>();
+    [Header("Killing")]
+    [SerializeField] float timeForKill;
+    [SerializeField] float startKillingSpreeTime;
+    [SerializeField] int looseCondition;
     private void Awake()
     {
         audioManager = FindObjectOfType<AudioManager>();
@@ -104,8 +109,10 @@ public class SpawnNPC : MonoBehaviour
         }
     }
 
-    [SerializeField] float timeForKill;
-    [SerializeField] float startKillingSpreeTime;
+    public int GetLooseCondition()
+    {
+        return looseCondition;
+    }
 
     public float GetStartKillingSpreeTime()
     {
@@ -125,14 +132,17 @@ public class SpawnNPC : MonoBehaviour
             yield return StartCoroutine(SeleccionVictima());
         }
 
-        usedCharacters[randomSelector].SetIsDiavlo(true);
-        usedCharacters[randomSelector].SetDeath(true);
-        audioManager.NPCMuerte();
+        else
+        {
+            usedCharacters[randomSelector].SetIsDiavlo(true);
+            usedCharacters[randomSelector].SetDeath(true);
+            audioManager.NPCMuerte();
 
 
-        yield return new WaitForSeconds(timeForKill);
+            yield return new WaitForSeconds(timeForKill);
 
-        MatarNPC();
+            MatarNPC(); 
+        }
     }
 
     private void MatarNPC()
@@ -154,6 +164,7 @@ public class SpawnNPC : MonoBehaviour
             }
 
         }
+        looseCondition--;
         timeForKill = timeForKill + 1f;
         StartCoroutine(SeleccionVictima());
     }

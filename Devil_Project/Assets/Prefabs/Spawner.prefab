@@ -45,8 +45,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   diabloInstance: {fileID: 0}
+  corpseInstance: {fileID: 5124824288241541874, guid: 5e999d37457edde45b06c51a82b9dd09, type: 3}
   diabloScriptInstance: {fileID: 0}
+  textMeshProUGUI: []
+  nPCs: []
+  audioManager: {fileID: 0}
   characters:
+  - {fileID: 11400000, guid: e75124bc12c7fd84cb5c6ac0322f3eb6, type: 2}
   - {fileID: 11400000, guid: fa47cc07d401b754e8a588460ab2c0b4, type: 2}
   - {fileID: 11400000, guid: 834116eeec8f0734ebfefd14ca3d9ba4, type: 2}
   - {fileID: 11400000, guid: 0d6953c841a121c46adee16e07d08484, type: 2}
@@ -57,6 +62,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7564ff70af5b4e34d8182de980a14aaa, type: 2}
   - {fileID: 11400000, guid: 31735231b675ff645870914a0741b2d6, type: 2}
   - {fileID: 11400000, guid: 458022677e8ef0d49b1338f19575e2f2, type: 2}
+  - {fileID: 11400000, guid: cf15caaf59b469e42aaec488ef609eba, type: 2}
+  - {fileID: 11400000, guid: f0e6b7c2c6c05a947a42c736991c0595, type: 2}
   - {fileID: 11400000, guid: 04d316b69e698144aa0df9b591c14a38, type: 2}
   - {fileID: 11400000, guid: 952e256913529094ab7c56b17cff1818, type: 2}
   - {fileID: 11400000, guid: a728650ca519cfd4ab39eced3f87a937, type: 2}
@@ -81,13 +88,15 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0c9d871444d9d87418b0198a7976e45f, type: 2}
   - {fileID: 11400000, guid: 72bff37f722fac24cadeff70626f24de, type: 2}
   - {fileID: 11400000, guid: 61bf28b0cf74bdb468a1e4813f9427cb, type: 2}
+  - {fileID: 11400000, guid: 80c0fe11436bf0f41ba6c03fe4278411, type: 2}
   - {fileID: 11400000, guid: 3464a4342fdb75d4b9843ceb3a71c3e5, type: 2}
   - {fileID: 11400000, guid: b005d09cb59f7c34b9b8eb2c9e07aecb, type: 2}
   - {fileID: 11400000, guid: 156bf7a3e1afe274dbd8fde4709749c1, type: 2}
-  - {fileID: 11400000, guid: 80c0fe11436bf0f41ba6c03fe4278411, type: 2}
+  - {fileID: 11400000, guid: dc3550e90819380468546406200e169d, type: 2}
+  - {fileID: 11400000, guid: 0a5aaaf1f1568874dbd3db142a3fe6b1, type: 2}
   - {fileID: 11400000, guid: a84ccf9f52563c34581fe1dd53e262bd, type: 2}
-  - {fileID: 11400000, guid: e75124bc12c7fd84cb5c6ac0322f3eb6, type: 2}
+  - {fileID: 11400000, guid: ffd37c315db54d54aab550d514a48f09, type: 2}
   usedCharacters: []
-  textMeshProUGUI: []
-  nPCs: []
-  timeForKill: 100
+  timeForKill: 4
+  startKillingSpreeTime: 60
+  looseCondition: 20

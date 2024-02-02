@@ -51,6 +51,8 @@ MonoBehaviour:
   avatar: {fileID: 0}
   character: {fileID: 11400000, guid: 04d316b69e698144aa0df9b591c14a38, type: 2}
   playerStats: {fileID: 0}
+  audioManager: {fileID: 0}
+  corpseInstance: {fileID: 5124824288241541874, guid: 5e999d37457edde45b06c51a82b9dd09, type: 3}
   winMessage: {fileID: 0}
   loseMessage: {fileID: 0}
   endingCanvas: {fileID: 0}
