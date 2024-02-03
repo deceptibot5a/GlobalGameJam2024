@@ -12,9 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cad49f0190d12148bfdcb76d30443bd, type: 3}
   m_Name: The Game
   m_EditorClassIdentifier: 
-  name: 'The Game
-
-'
+  name: The Game
   Dialogue: Perdiste
   avatar: {fileID: 21300000, guid: 88b5753290cf2d048b9e4666e1c25b7d, type: 3}
   isDead: 0

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Gordo El Free Man
   m_EditorClassIdentifier: 
   name: Gordo El Free Man
-  Dialogue: Crowbars Corwbars anmd more Corwbars
+  Dialogue: Crowbars Crowbars and more Crowbars
   avatar: {fileID: 21300000, guid: 40aa4e5ef09678041adcaa1f2111497a, type: 3}
   isDead: 0
   isDiablo: 0

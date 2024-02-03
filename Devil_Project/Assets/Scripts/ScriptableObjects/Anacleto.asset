@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cad49f0190d12148bfdcb76d30443bd, type: 3}
+  m_Name: Anacleto
+  m_EditorClassIdentifier: 
+  name: Anacleto
+  Dialogue: "Mujeres y ni\xF1os primero"
+  avatar: {fileID: 21300000, guid: 846a1346be93e1a498113fb89caf37e4, type: 3}
+  isDead: 0
+  isDiablo: 0
+  textMeshProUGUI: {fileID: 0}
