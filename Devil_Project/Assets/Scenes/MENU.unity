@@ -741,7 +741,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Boton_jugar: {fileID: 468181078}
-  indiceNivel: 0
+  indiceNivel: 1
 --- !u!50 &1571757138
 Rigidbody2D:
   serializedVersion: 4

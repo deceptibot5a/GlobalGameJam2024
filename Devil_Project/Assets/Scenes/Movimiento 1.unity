@@ -5401,11 +5401,11 @@ PrefabInstance:
     - target: {fileID: 2306822608542572050, guid: 63956e427040cad4cae20291c37dbbbb, type: 3}
       propertyPath: winMessage
       value: 
-      objectReference: {fileID: 4290744010250881928}
+      objectReference: {fileID: 9104103586614104928}
     - target: {fileID: 2306822608542572050, guid: 63956e427040cad4cae20291c37dbbbb, type: 3}
       propertyPath: loseMessage
       value: 
-      objectReference: {fileID: 4290744010734669029}
+      objectReference: {fileID: 9104103586614104927}
     - target: {fileID: 2306822608542572050, guid: 63956e427040cad4cae20291c37dbbbb, type: 3}
       propertyPath: playerStats
       value: 
@@ -5481,16 +5481,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25196e2b77076eb479d715b2b9aac12d, type: 3}
---- !u!1 &4290744010250881928 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4290744009762365165, guid: 6fc3e7db61deda7499a65614cadda941, type: 3}
-  m_PrefabInstance: {fileID: 9104103586614104926}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &4290744010734669029 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4290744011185936768, guid: 6fc3e7db61deda7499a65614cadda941, type: 3}
-  m_PrefabInstance: {fileID: 9104103586614104926}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &4290744011689286984 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4290744011103733805, guid: 6fc3e7db61deda7499a65614cadda941, type: 3}
@@ -5572,18 +5562,6 @@ PrefabInstance:
     - target: {fileID: 4290744011103733801, guid: 6fc3e7db61deda7499a65614cadda941, type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4290744011103733803, guid: 6fc3e7db61deda7499a65614cadda941, type: 3}
-      propertyPath: m_UiScaleMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4290744011103733803, guid: 6fc3e7db61deda7499a65614cadda941, type: 3}
-      propertyPath: m_ScreenMatchMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4290744011103733803, guid: 6fc3e7db61deda7499a65614cadda941, type: 3}
-      propertyPath: m_ReferenceResolution.y
-      value: 523.9
       objectReference: {fileID: 0}
     - target: {fileID: 4290744011103733805, guid: 6fc3e7db61deda7499a65614cadda941, type: 3}
       propertyPath: m_Pivot.x
@@ -5669,9 +5647,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5031520274621456598, guid: 6fc3e7db61deda7499a65614cadda941, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc3e7db61deda7499a65614cadda941, type: 3}
+--- !u!1 &9104103586614104927 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5615935405620834090, guid: 6fc3e7db61deda7499a65614cadda941, type: 3}
+  m_PrefabInstance: {fileID: 9104103586614104926}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &9104103586614104928 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4252623332363445560, guid: 6fc3e7db61deda7499a65614cadda941, type: 3}
+  m_PrefabInstance: {fileID: 9104103586614104926}
+  m_PrefabAsset: {fileID: 0}
